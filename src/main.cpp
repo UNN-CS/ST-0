@@ -1,6 +1,6 @@
 // Copyright 2026 NNTU-CS
 #include <iostream>
-#include <stdint>
+#include <cstdint>
 #include "alg.h"
 
 int main() {

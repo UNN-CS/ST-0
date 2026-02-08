@@ -26,6 +26,7 @@ uint64_t factorial(uint8_t n) {
 
 ```cpp
 #include <iostream>
+#include <cstdint>
 #include "alg.h"
 
 int main() {
