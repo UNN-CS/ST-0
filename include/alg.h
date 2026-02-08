@@ -2,6 +2,6 @@
 #ifndef INCLUDE_ALG_H_
 #define INCLUDE_ALG_H_
 
-int gcd(int a, int b);
+uint64_t factorial(uint8_t n);
 
 #endif  // INCLUDE_ALG_H_
