@@ -1,5 +1,5 @@
-// Copyright 2021 NNTU-CS
+// Copyright 2026 NNTU-CS
 
-int gcd(int a, int b) {
+uint64_t factorial(uint8_t n) {
 
 }

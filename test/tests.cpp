@@ -1,8 +1,13 @@
-// Copyright 2021 NNTU-CS
+// Copyright 2026 NNTU-CS
 #include "gtest/gtest.h"
 #include "alg.h"
 
 TEST(algtest, test1) {
-  int result = gcd(10, 15);
-  EXPECT_EQ(5, result);
+  uint64_t result = factorial(1);
+  EXPECT_EQ(1, result);
+}
+
+TEST(algtest, test2) {
+  uint64_t result = factorial(2);
+  EXPECT_EQ(2, result);
 }

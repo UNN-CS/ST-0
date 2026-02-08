@@ -1,9 +1,10 @@
-// Copyright 2021 NNTU-CS
+// Copyright 2026 NNTU-CS
 #include <iostream>
+#include <stdint>
 #include "alg.h"
 
 int main() {
-    int result = gcd(10, 15);
+    uint64_t result = factorial(10);
     std::cout << result << std::endl;
     return 0;
 }
