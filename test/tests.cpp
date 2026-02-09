@@ -32,3 +32,6 @@ TEST(algtest, test6) {
   EXPECT_THROW(factorial(21), std::overflow_error);
 }
 
+TEST(algtest, test6) {
+  EXPECT_THROW(factorial(-1), std::overflow_error);
+}
