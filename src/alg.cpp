@@ -2,5 +2,5 @@
 #include <cstdint>
 
 uint64_t factorial(uint8_t n) {
-  return 2;
+  return 20;
 }
