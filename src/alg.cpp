@@ -7,7 +7,7 @@ uint64_t factorial(uint8_t n) {
   if (n < 2) {
     return res;
   }
-  for (uint8_t i = 2; i <= n; i++){
+  for (uint8_t i = 2; i <= n; i++) {
     res *= i;
   }
   return res;
