@@ -3,10 +3,9 @@
 #include "alg.h"
 
 uint64_t factorial(uint8_t n) {
-  uint64_t result = 1;
 
   if (n < 2) {
-    return result;
+    return 1;
   }
 
   return n * factorial(n-1);
