@@ -2,5 +2,14 @@
 #include <cstdint>
 
 uint64_t factorial(uint8_t n) {
-  return 1;
+
+  if (n > 20) {
+    return -1;
+  }
+
+  uint64_t result = 1;
+  for(uint8_t i = 0; i < n; ++i) {
+    result = result * (i + 1);
+  }
+  return result;
 }

@@ -1,10 +1,10 @@
 // Copyright 2026 NNTU-CS
 #include <iostream>
 #include <cstdint>
-#include "alg.h"
+#include "../include/alg.h"
 
 int main() {
-    uint64_t result = factorial(10);
+    uint64_t result = factorial(-2);
     std::cout << result << std::endl;
     return 0;
 }
