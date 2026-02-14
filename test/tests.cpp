@@ -1,7 +1,7 @@
 // Copyright 2026 NNTU-CS
 #include <cstdint>
 #include "gtest/gtest.h"
-#include "../include/alg.h"
+#include "include/alg.h"
 
 TEST(algtest, test1) {
   uint64_t result = factorial(1);
