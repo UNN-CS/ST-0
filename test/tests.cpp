@@ -12,3 +12,18 @@ TEST(algtest, test2) {
   uint64_t result = factorial(2);
   EXPECT_EQ(2, result);
 }
+
+TEST(algtest, test3) {
+  uint64_t result = factorial(0);
+  EXPECT_EQ(1, result);
+}
+
+TEST(algtest, test4) {
+  uint64_t result = factorial(10);
+  EXPECT_EQ(3628800, result);
+}
+
+TEST(algtest, test5) {
+  uint64_t result = factorial(17);
+  EXPECT_EQ(355687428096000, result);
+}
