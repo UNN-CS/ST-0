@@ -15,7 +15,7 @@ TEST(algtest, factorial_1) {
 
 TEST(algtest, factorial_2) {
   uint64_t result = factorial(3);
-  EXPECT_EQ(3, result);
+  EXPECT_EQ(6, result);
 }
 
 TEST(algtest, factorial_5) {
