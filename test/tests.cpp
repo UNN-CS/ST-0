@@ -1,7 +1,7 @@
 // Copyright 2026 NNTU-CS
-#include <cstdint>
-#include "gtest/gtest.h"
 #include "alg.h"
+#include "gtest/gtest.h"
+#include <cstdint>
 
 TEST(algtest, test1) {
   uint64_t result = factorial(1);
@@ -14,20 +14,18 @@ TEST(algtest, test2) {
 }
 
 TEST(algtest, test3) {
-	uint64_t result = factorial(0);
-	EXPECT_EQ(1, result);
+  uint64_t result = factorial(0);
+  EXPECT_EQ(1, result);
 }
 
 TEST(algtest, test4) {
-	uint64_t result = factorial(5);
-	EXPECT_EQ(120, result);
+  uint64_t result = factorial(5);
+  EXPECT_EQ(120, result);
 }
 
 TEST(algtest, test5) {
-	uint64_t result = factorial(12);
-	EXPECT_EQ(479001600, result);
+  uint64_t result = factorial(12);
+  EXPECT_EQ(479001600, result);
 }
 
-TEST(algtest, test6) {
-	EXPECT_THROW(factorial(21), std::out_of_range);
-}
+TEST(algtest, test6) { EXPECT_THROW(factorial(21), std::out_of_range); }
