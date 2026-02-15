@@ -5,3 +5,4 @@
 uint64_t factorial(uint8_t n);
 
 #endif  // INCLUDE_ALG_H_
+
