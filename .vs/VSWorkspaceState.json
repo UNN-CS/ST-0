@@ -7,8 +7,9 @@
   },
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\test"
   ],
-  "SelectedNode": "\\src\\alg.cpp",
+  "SelectedNode": "\\test\\tests.cpp",
   "PreviewInSolutionExplorer": false
 }
