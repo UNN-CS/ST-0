@@ -2,5 +2,13 @@
 #include <cstdint>
 
 uint64_t factorial(uint8_t n) {
-  return 1;
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+
+    uint64_t result = 1;
+    for (uint8_t i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
 }
