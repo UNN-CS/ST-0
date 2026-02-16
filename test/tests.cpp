@@ -1,4 +1,5 @@
 // Copyright 2026 NNTU-CS
+
 #include <cstdint>
 #include "gtest/gtest.h"
 #include "alg.h"
