@@ -1,4 +1,5 @@
 // Copyright 2021 NNTU-CS
+#include <cstdint>
 #ifndef INCLUDE_ALG_H_
 #define INCLUDE_ALG_H_
 

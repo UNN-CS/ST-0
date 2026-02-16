@@ -2,5 +2,9 @@
 #include <cstdint>
 
 uint64_t factorial(uint8_t n) {
-  return 1;
+  uint64_t res = 1;
+  for (uint8_t i = 1; i <= n; i++) {
+    res *= i;
+  }
+  return res;
 }
