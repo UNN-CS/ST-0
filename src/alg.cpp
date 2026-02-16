@@ -2,10 +2,7 @@
 #include <cstdint>
 
 uint64_t factorial(uint8_t n) {
-	if (n < 0) {
-		throw -1;
-	}
-	else if (n == 0) {
+	if (n == 0) {
 		return 1;
 	}
 	else if (n > 20) {

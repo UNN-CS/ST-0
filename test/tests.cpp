@@ -19,22 +19,14 @@ TEST(algtest, test3) {
 }
 
 TEST(algtest, test4) {
-  EXPECT_ANY_THROW(factorial(-1));
-}
-
-TEST(algtest, test5) {
-  EXPECT_ANY_THROW(factorial(-10));
-}
-
-TEST(algtest, test6) {
   EXPECT_NO_THROW(factorial(5));
 }
 
-TEST(algtest, test7) {
+TEST(algtest, test5) {
   EXPECT_ANY_THROW(factorial(30));
 }
 
-TEST(algtest, test8) {
+TEST(algtest, test6) {
   uint64_t result = factorial(0);
   EXPECT_EQ(1, result);
 }
